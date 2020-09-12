@@ -1,6 +1,5 @@
 # SpSolve: Sparse-solve a linear system of equations
 
-
 We solve a small linear system (find vector x such that A.x = b; given matrix A and vector b) where the system matrix A is sparse, i.e. matrix A has too many zeros (zero-valued components). Therefore, only the non-zero values in A need to be input and considered.
 
 We represent the sparse matrix A using a structure called Triplet, where we store the indices and values of the non-zeros. The Triplet is a very convenient object for data input and even allows duplicated entries (automatically added).
