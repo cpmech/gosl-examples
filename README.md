@@ -1,3 +1,5 @@
 # Gosl &ndash; Go scientific library (Examples)
 
-TODO
+See each folder for more details.
+
+- la: Linear Algebra
